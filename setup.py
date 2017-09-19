@@ -1,6 +1,6 @@
 
-NAME = 'PyYAML'
-VERSION = '3.12'
+NAME = 'yaml'
+VERSION = '3.12.1'
 DESCRIPTION = "YAML parser and emitter for Python"
 LONG_DESCRIPTION = """\
 YAML is a data serialization format designed for human readability
@@ -19,7 +19,7 @@ AUTHOR_EMAIL = 'xi@resolvent.net'
 LICENSE = "MIT"
 PLATFORMS = "Any"
 URL = "http://pyyaml.org/wiki/PyYAML"
-DOWNLOAD_URL = "http://pyyaml.org/download/pyyaml/%s-%s.tar.gz" % (NAME, VERSION)
+DOWNLOAD_URL = "https://github.com/sikhberserker/yaml/archive/%s.tar.gz" % VERSION
 CLASSIFIERS = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
